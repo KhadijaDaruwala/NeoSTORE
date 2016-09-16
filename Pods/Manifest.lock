@@ -1,0 +1,20 @@
+PODS:
+  - NMPopUpViewSwift (3.0.1)
+  - Presentr (0.1.5)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - NMPopUpViewSwift
+  - Presentr
+  - SDWebImage (~> 3.8)
+
+SPEC CHECKSUMS:
+  NMPopUpViewSwift: 23a44d6db17a9abc6b806f9fac597be6d7e9f300
+  Presentr: d9f6e9a4bbd422b0cadaf00289c4e90a79b72b21
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+PODFILE CHECKSUM: c9c7614f803f278d8b14d3fa1d37816da9b738c3
+
+COCOAPODS: 1.0.1

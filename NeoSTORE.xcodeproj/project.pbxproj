@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3516E0CB75A93EF5A63067B /* Pods_NeoSTORE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969D8C93A8C6B08D285B9B21 /* Pods_NeoSTORE.framework */; };
+		F21F79241D6AFEB600B0D205 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F79231D6AFEB600B0D205 /* EditProfileViewController.swift */; };
+		F21F79261D6B27CB00B0D205 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F79251D6B27CB00B0D205 /* ResetPasswordViewController.swift */; };
+		F224B1A41D641811007A7497 /* UIVViewController-SLPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F224B1A31D641811007A7497 /* UIVViewController-SLPopup.swift */; };
+		F224B1A61D6418A2007A7497 /* MyPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F224B1A51D6418A2007A7497 /* MyPopupViewController.swift */; };
+		F224B1AA1D643DE4007A7497 /* RateNowPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F224B1A91D643DE4007A7497 /* RateNowPopupViewController.swift */; };
+		F2449CAF1D53563E00853D00 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2449CAE1D53563E00853D00 /* Toast.swift */; };
+		F2456CF11D7ECF5C0065526F /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2456CF01D7ECF5C0065526F /* CommonFunctions.swift */; };
+		F2456D041D7ED7B00065526F /* Gotham Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2456D011D7ED7B00065526F /* Gotham Medium.otf */; };
+		F2456D051D7ED7B00065526F /* Gotham Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2456D021D7ED7B00065526F /* Gotham Bold.otf */; };
+		F2456D061D7ED7B00065526F /* Gotham Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2456D031D7ED7B00065526F /* Gotham Book.otf */; };
+		F25717A21D80148500A1EF2A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25717A11D80148500A1EF2A /* MapKit.framework */; };
+		F25717A41D8014AE00A1EF2A /* StoreLocatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25717A31D8014AE00A1EF2A /* StoreLocatorViewController.swift */; };
+		F25717A61D80166500A1EF2A /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25717A51D80166500A1EF2A /* CustomAnnotation.swift */; };
+		F268AF641D5D997600E8440A /* MyOrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F268AF631D5D997600E8440A /* MyOrderDetailsViewController.swift */; };
+		F268AF661D5D9B6700E8440A /* MyOrderDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F268AF651D5D9B6700E8440A /* MyOrderDetailsTableViewCell.swift */; };
+		F268AF681D5DAB3B00E8440A /* OrderIDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F268AF671D5DAB3B00E8440A /* OrderIDTableViewCell.swift */; };
+		F268AF6A1D5DAC6E00E8440A /* OrderIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F268AF691D5DAC6E00E8440A /* OrderIDViewController.swift */; };
+		F268AF6E1D5DECCC00E8440A /* MyAccountDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F268AF6D1D5DECCC00E8440A /* MyAccountDetailsViewController.swift */; };
+		F281145A1D45D0A500C8C80C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28114591D45D0A500C8C80C /* AppDelegate.swift */; };
+		F281145F1D45D0A500C8C80C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F281145D1D45D0A500C8C80C /* Main.storyboard */; };
+		F28114621D45D0A500C8C80C /* NeoSTORE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F28114601D45D0A500C8C80C /* NeoSTORE.xcdatamodeld */; };
+		F28114641D45D0A500C8C80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28114631D45D0A500C8C80C /* Assets.xcassets */; };
+		F28114671D45D0A500C8C80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28114651D45D0A500C8C80C /* LaunchScreen.storyboard */; };
+		F28114831D4615A700C8C80C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28114821D4615A700C8C80C /* CustomTextField.swift */; };
+		F28114851D461D0F00C8C80C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28114841D461D0F00C8C80C /* LoginViewController.swift */; };
+		F28B480F1D547A8400D131DC /* IJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28B480E1D547A8400D131DC /* IJProgressView.swift */; };
+		F28B48111D548FE700D131DC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28B48101D548FE700D131DC /* Reachability.swift */; };
+		F2A263E71D54B1D0004E3E08 /* AddAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A263E61D54B1D0004E3E08 /* AddAddressViewController.swift */; };
+		F2A34C961D4B0DBF0066C4C1 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A34C951D4B0DBF0066C4C1 /* ForgotPasswordViewController.swift */; };
+		F2A34CBB1D4B58BF0066C4C1 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A34CBA1D4B58BF0066C4C1 /* HomePageViewController.swift */; };
+		F2A34D761D5B12E700CDE645 /* MyPopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A34D751D5B12E700CDE645 /* MyPopupViewController.xib */; };
+		F2A34D7A1D5B50DE00CDE645 /* ProductRating.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A34D791D5B50DE00CDE645 /* ProductRating.xib */; };
+		F2A978EF1D51E18100A6DFDD /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A978EE1D51E18100A6DFDD /* SSASideMenu.swift */; };
+		F2A978F31D51F1DA00A6DFDD /* ProductListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A978F21D51F1DA00A6DFDD /* ProductListingViewController.swift */; };
+		F2A978F51D51F58E00A6DFDD /* ProductListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A978F41D51F58E00A6DFDD /* ProductListingTableViewCell.swift */; };
+		F2AFDE851D5992F900D1CF96 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFDE841D5992F900D1CF96 /* ProductDetailsViewController.swift */; };
+		F2C073DE1D4F536A0069053F /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C073DD1D4F536A0069053F /* HomeCollectionViewCell.swift */; };
+		F2C2EEEC1D59EE5D0024DECC /* ProductDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2EEEB1D59EE5D0024DECC /* ProductDetailsCollectionViewCell.swift */; };
+		F2C2EEEE1D5A00F30024DECC /* MyCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2EEED1D5A00F30024DECC /* MyCartViewController.swift */; };
+		F2C2EEF01D5A01130024DECC /* MyCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2EEEF1D5A01130024DECC /* MyCartTableViewCell.swift */; };
+		F2E85EAB1D4711FB00F19045 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E85EAA1D4711FB00F19045 /* RegisterViewController.swift */; };
+		F2EBE85E1D508A7D007318BF /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EBE85D1D508A7D007318BF /* SlideMenuViewController.swift */; };
+		F2EBE8601D509D67007318BF /* slideMenuIconTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EBE85F1D509D67007318BF /* slideMenuIconTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		053CBE71F5F7D797CCDD67E6 /* Pods-NeoSTORE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoSTORE.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeoSTORE/Pods-NeoSTORE.release.xcconfig"; sourceTree = "<group>"; };
+		969D8C93A8C6B08D285B9B21 /* Pods_NeoSTORE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoSTORE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21F79231D6AFEB600B0D205 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		F21F79251D6B27CB00B0D205 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		F224B1A31D641811007A7497 /* UIVViewController-SLPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIVViewController-SLPopup.swift"; sourceTree = "<group>"; };
+		F224B1A51D6418A2007A7497 /* MyPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPopupViewController.swift; sourceTree = "<group>"; };
+		F224B1A91D643DE4007A7497 /* RateNowPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateNowPopupViewController.swift; sourceTree = "<group>"; };
+		F2449CAE1D53563E00853D00 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		F2456CF01D7ECF5C0065526F /* CommonFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		F2456D011D7ED7B00065526F /* Gotham Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham Medium.otf"; path = "../Gotham Medium.otf"; sourceTree = "<group>"; };
+		F2456D021D7ED7B00065526F /* Gotham Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham Bold.otf"; path = "../Gotham Bold.otf"; sourceTree = "<group>"; };
+		F2456D031D7ED7B00065526F /* Gotham Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham Book.otf"; path = "../Gotham Book.otf"; sourceTree = "<group>"; };
+		F25717A11D80148500A1EF2A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F25717A31D8014AE00A1EF2A /* StoreLocatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreLocatorViewController.swift; sourceTree = "<group>"; };
+		F25717A51D80166500A1EF2A /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		F268AF631D5D997600E8440A /* MyOrderDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderDetailsViewController.swift; sourceTree = "<group>"; };
+		F268AF651D5D9B6700E8440A /* MyOrderDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		F268AF671D5DAB3B00E8440A /* OrderIDTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderIDTableViewCell.swift; sourceTree = "<group>"; };
+		F268AF691D5DAC6E00E8440A /* OrderIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderIDViewController.swift; sourceTree = "<group>"; };
+		F268AF6D1D5DECCC00E8440A /* MyAccountDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccountDetailsViewController.swift; sourceTree = "<group>"; };
+		F28114561D45D0A500C8C80C /* NeoSTORE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoSTORE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28114591D45D0A500C8C80C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F281145E1D45D0A500C8C80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F28114611D45D0A500C8C80C /* NeoSTORE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeoSTORE.xcdatamodel; sourceTree = "<group>"; };
+		F28114631D45D0A500C8C80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F28114661D45D0A500C8C80C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F28114681D45D0A500C8C80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28114821D4615A700C8C80C /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F28114841D461D0F00C8C80C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F28B480E1D547A8400D131DC /* IJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJProgressView.swift; sourceTree = "<group>"; };
+		F28B48101D548FE700D131DC /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		F2A263E61D54B1D0004E3E08 /* AddAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAddressViewController.swift; sourceTree = "<group>"; };
+		F2A34C951D4B0DBF0066C4C1 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		F2A34CBA1D4B58BF0066C4C1 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		F2A34D6C1D5AE52900CDE645 /* NeoSTORE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NeoSTORE-Bridging-Header.h"; sourceTree = "<group>"; };
+		F2A34D751D5B12E700CDE645 /* MyPopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPopupViewController.xib; sourceTree = "<group>"; };
+		F2A34D791D5B50DE00CDE645 /* ProductRating.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductRating.xib; path = ../ProductRating.xib; sourceTree = "<group>"; };
+		F2A978EE1D51E18100A6DFDD /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
+		F2A978F21D51F1DA00A6DFDD /* ProductListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListingViewController.swift; sourceTree = "<group>"; };
+		F2A978F41D51F58E00A6DFDD /* ProductListingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListingTableViewCell.swift; sourceTree = "<group>"; };
+		F2AFDE841D5992F900D1CF96 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		F2C073DD1D4F536A0069053F /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		F2C2EEEB1D59EE5D0024DECC /* ProductDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		F2C2EEED1D5A00F30024DECC /* MyCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCartViewController.swift; sourceTree = "<group>"; };
+		F2C2EEEF1D5A01130024DECC /* MyCartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCartTableViewCell.swift; sourceTree = "<group>"; };
+		F2E85EAA1D4711FB00F19045 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F2EBE85D1D508A7D007318BF /* SlideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+		F2EBE85F1D509D67007318BF /* slideMenuIconTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slideMenuIconTableViewCell.swift; sourceTree = "<group>"; };
+		FADFF41711E90E6D055D34EA /* Pods-NeoSTORE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoSTORE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeoSTORE/Pods-NeoSTORE.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F28114531D45D0A500C8C80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25717A21D80148500A1EF2A /* MapKit.framework in Frameworks */,
+				C3516E0CB75A93EF5A63067B /* Pods_NeoSTORE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F40E4A30889BE1BE34348AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F25717A11D80148500A1EF2A /* MapKit.framework */,
+				969D8C93A8C6B08D285B9B21 /* Pods_NeoSTORE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEEE48B7B717A14ABE604E15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FADFF41711E90E6D055D34EA /* Pods-NeoSTORE.debug.xcconfig */,
+				053CBE71F5F7D797CCDD67E6 /* Pods-NeoSTORE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2456CEB1D7E9C5F0065526F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				F28114841D461D0F00C8C80C /* LoginViewController.swift */,
+				F2E85EAA1D4711FB00F19045 /* RegisterViewController.swift */,
+				F2A34C951D4B0DBF0066C4C1 /* ForgotPasswordViewController.swift */,
+				F21F79251D6B27CB00B0D205 /* ResetPasswordViewController.swift */,
+				F268AF6D1D5DECCC00E8440A /* MyAccountDetailsViewController.swift */,
+				F21F79231D6AFEB600B0D205 /* EditProfileViewController.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		F2456CEC1D7EA1EC0065526F /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				F2A978F21D51F1DA00A6DFDD /* ProductListingViewController.swift */,
+				F2A978F41D51F58E00A6DFDD /* ProductListingTableViewCell.swift */,
+				F2AFDE841D5992F900D1CF96 /* ProductDetailsViewController.swift */,
+				F2C2EEEB1D59EE5D0024DECC /* ProductDetailsCollectionViewCell.swift */,
+				F224B1A91D643DE4007A7497 /* RateNowPopupViewController.swift */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		F2456CED1D7EA8480065526F /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				F268AF631D5D997600E8440A /* MyOrderDetailsViewController.swift */,
+				F268AF651D5D9B6700E8440A /* MyOrderDetailsTableViewCell.swift */,
+				F268AF671D5DAB3B00E8440A /* OrderIDTableViewCell.swift */,
+				F268AF691D5DAC6E00E8440A /* OrderIDViewController.swift */,
+			);
+			name = Orders;
+			sourceTree = "<group>";
+		};
+		F2456CEE1D7EA8E80065526F /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				F224B1A51D6418A2007A7497 /* MyPopupViewController.swift */,
+				F2C2EEED1D5A00F30024DECC /* MyCartViewController.swift */,
+				F2C2EEEF1D5A01130024DECC /* MyCartTableViewCell.swift */,
+			);
+			name = Cart;
+			sourceTree = "<group>";
+		};
+		F2456CEF1D7EA9150065526F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F2EBE85A1D508718007318BF /* SSASideMenu */,
+				F224B1A31D641811007A7497 /* UIVViewController-SLPopup.swift */,
+				F2449CAE1D53563E00853D00 /* Toast.swift */,
+				F28B480E1D547A8400D131DC /* IJProgressView.swift */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		F281144D1D45D0A500C8C80C = {
+			isa = PBXGroup;
+			children = (
+				F28114581D45D0A500C8C80C /* NeoSTORE */,
+				F28114571D45D0A500C8C80C /* Products */,
+				AEEE48B7B717A14ABE604E15 /* Pods */,
+				7F40E4A30889BE1BE34348AF /* Frameworks */,
+				F2A34D6C1D5AE52900CDE645 /* NeoSTORE-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		F28114571D45D0A500C8C80C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28114561D45D0A500C8C80C /* NeoSTORE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F28114581D45D0A500C8C80C /* NeoSTORE */ = {
+			isa = PBXGroup;
+			children = (
+				F28114591D45D0A500C8C80C /* AppDelegate.swift */,
+				F28114631D45D0A500C8C80C /* Assets.xcassets */,
+				F281145D1D45D0A500C8C80C /* Main.storyboard */,
+				F28114651D45D0A500C8C80C /* LaunchScreen.storyboard */,
+				F2A34D751D5B12E700CDE645 /* MyPopupViewController.xib */,
+				F2A34D791D5B50DE00CDE645 /* ProductRating.xib */,
+				F2456CEB1D7E9C5F0065526F /* User */,
+				F2456CEC1D7EA1EC0065526F /* Product */,
+				F2456CEE1D7EA8E80065526F /* Cart */,
+				F2456CED1D7EA8480065526F /* Orders */,
+				F2456CEF1D7EA9150065526F /* Resource */,
+				F281146E1D45D0B600C8C80C /* Fonts */,
+				F2A34CBA1D4B58BF0066C4C1 /* HomePageViewController.swift */,
+				F2C073DD1D4F536A0069053F /* HomeCollectionViewCell.swift */,
+				F2EBE85D1D508A7D007318BF /* SlideMenuViewController.swift */,
+				F2EBE85F1D509D67007318BF /* slideMenuIconTableViewCell.swift */,
+				F2A263E61D54B1D0004E3E08 /* AddAddressViewController.swift */,
+				F28114821D4615A700C8C80C /* CustomTextField.swift */,
+				F28B48101D548FE700D131DC /* Reachability.swift */,
+				F2456CF01D7ECF5C0065526F /* CommonFunctions.swift */,
+				F25717A31D8014AE00A1EF2A /* StoreLocatorViewController.swift */,
+				F25717A51D80166500A1EF2A /* CustomAnnotation.swift */,
+				F28114601D45D0A500C8C80C /* NeoSTORE.xcdatamodeld */,
+				F28114681D45D0A500C8C80C /* Info.plist */,
+			);
+			path = NeoSTORE;
+			sourceTree = "<group>";
+		};
+		F281146E1D45D0B600C8C80C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F2456D011D7ED7B00065526F /* Gotham Medium.otf */,
+				F2456D021D7ED7B00065526F /* Gotham Bold.otf */,
+				F2456D031D7ED7B00065526F /* Gotham Book.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		F2EBE85A1D508718007318BF /* SSASideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F2A978EE1D51E18100A6DFDD /* SSASideMenu.swift */,
+			);
+			name = SSASideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F28114551D45D0A500C8C80C /* NeoSTORE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F281146B1D45D0A500C8C80C /* Build configuration list for PBXNativeTarget "NeoSTORE" */;
+			buildPhases = (
+				FCE1BB1CA7DDDAF876852F87 /* [CP] Check Pods Manifest.lock */,
+				F28114521D45D0A500C8C80C /* Sources */,
+				F28114531D45D0A500C8C80C /* Frameworks */,
+				F28114541D45D0A500C8C80C /* Resources */,
+				00B1D87E0FA39E551FCDB770 /* [CP] Embed Pods Frameworks */,
+				1ACCDA976DE77B21EEFF35E5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoSTORE;
+			productName = NeoSTORE;
+			productReference = F28114561D45D0A500C8C80C /* NeoSTORE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F281144E1D45D0A500C8C80C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = webwerks1;
+				TargetAttributes = {
+					F28114551D45D0A500C8C80C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9LF24P7WQU;
+					};
+				};
+			};
+			buildConfigurationList = F28114511D45D0A500C8C80C /* Build configuration list for PBXProject "NeoSTORE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F281144D1D45D0A500C8C80C;
+			productRefGroup = F28114571D45D0A500C8C80C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F28114551D45D0A500C8C80C /* NeoSTORE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F28114541D45D0A500C8C80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2456D041D7ED7B00065526F /* Gotham Medium.otf in Resources */,
+				F2456D051D7ED7B00065526F /* Gotham Bold.otf in Resources */,
+				F2456D061D7ED7B00065526F /* Gotham Book.otf in Resources */,
+				F2A34D7A1D5B50DE00CDE645 /* ProductRating.xib in Resources */,
+				F28114671D45D0A500C8C80C /* LaunchScreen.storyboard in Resources */,
+				F2A34D761D5B12E700CDE645 /* MyPopupViewController.xib in Resources */,
+				F28114641D45D0A500C8C80C /* Assets.xcassets in Resources */,
+				F281145F1D45D0A500C8C80C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00B1D87E0FA39E551FCDB770 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeoSTORE/Pods-NeoSTORE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1ACCDA976DE77B21EEFF35E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeoSTORE/Pods-NeoSTORE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCE1BB1CA7DDDAF876852F87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F28114521D45D0A500C8C80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F268AF641D5D997600E8440A /* MyOrderDetailsViewController.swift in Sources */,
+				F25717A61D80166500A1EF2A /* CustomAnnotation.swift in Sources */,
+				F28114831D4615A700C8C80C /* CustomTextField.swift in Sources */,
+				F28B48111D548FE700D131DC /* Reachability.swift in Sources */,
+				F2AFDE851D5992F900D1CF96 /* ProductDetailsViewController.swift in Sources */,
+				F25717A41D8014AE00A1EF2A /* StoreLocatorViewController.swift in Sources */,
+				F2C2EEF01D5A01130024DECC /* MyCartTableViewCell.swift in Sources */,
+				F268AF681D5DAB3B00E8440A /* OrderIDTableViewCell.swift in Sources */,
+				F2449CAF1D53563E00853D00 /* Toast.swift in Sources */,
+				F268AF6E1D5DECCC00E8440A /* MyAccountDetailsViewController.swift in Sources */,
+				F2A34CBB1D4B58BF0066C4C1 /* HomePageViewController.swift in Sources */,
+				F268AF661D5D9B6700E8440A /* MyOrderDetailsTableViewCell.swift in Sources */,
+				F2A978F51D51F58E00A6DFDD /* ProductListingTableViewCell.swift in Sources */,
+				F2E85EAB1D4711FB00F19045 /* RegisterViewController.swift in Sources */,
+				F224B1AA1D643DE4007A7497 /* RateNowPopupViewController.swift in Sources */,
+				F21F79261D6B27CB00B0D205 /* ResetPasswordViewController.swift in Sources */,
+				F268AF6A1D5DAC6E00E8440A /* OrderIDViewController.swift in Sources */,
+				F224B1A41D641811007A7497 /* UIVViewController-SLPopup.swift in Sources */,
+				F28B480F1D547A8400D131DC /* IJProgressView.swift in Sources */,
+				F2A34C961D4B0DBF0066C4C1 /* ForgotPasswordViewController.swift in Sources */,
+				F2456CF11D7ECF5C0065526F /* CommonFunctions.swift in Sources */,
+				F2EBE8601D509D67007318BF /* slideMenuIconTableViewCell.swift in Sources */,
+				F2A263E71D54B1D0004E3E08 /* AddAddressViewController.swift in Sources */,
+				F2EBE85E1D508A7D007318BF /* SlideMenuViewController.swift in Sources */,
+				F28114621D45D0A500C8C80C /* NeoSTORE.xcdatamodeld in Sources */,
+				F28114851D461D0F00C8C80C /* LoginViewController.swift in Sources */,
+				F2C2EEEC1D59EE5D0024DECC /* ProductDetailsCollectionViewCell.swift in Sources */,
+				F224B1A61D6418A2007A7497 /* MyPopupViewController.swift in Sources */,
+				F2A978EF1D51E18100A6DFDD /* SSASideMenu.swift in Sources */,
+				F21F79241D6AFEB600B0D205 /* EditProfileViewController.swift in Sources */,
+				F281145A1D45D0A500C8C80C /* AppDelegate.swift in Sources */,
+				F2C073DE1D4F536A0069053F /* HomeCollectionViewCell.swift in Sources */,
+				F2C2EEEE1D5A00F30024DECC /* MyCartViewController.swift in Sources */,
+				F2A978F31D51F1DA00A6DFDD /* ProductListingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F281145D1D45D0A500C8C80C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F281145E1D45D0A500C8C80C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F28114651D45D0A500C8C80C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28114661D45D0A500C8C80C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F28114691D45D0A500C8C80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: rahul mahadik (3FXBUPQE6P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: rahul mahadik (3FXBUPQE6P)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "399a7fee-4708-4a6f-a14a-1346c7cefed3";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F281146A1D45D0A500C8C80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: rahul mahadik (3FXBUPQE6P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: rahul mahadik (3FXBUPQE6P)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "399a7fee-4708-4a6f-a14a-1346c7cefed3";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F281146C1D45D0A500C8C80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FADFF41711E90E6D055D34EA /* Pods-NeoSTORE.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: rahul mahadik (3FXBUPQE6P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: rahul mahadik (3FXBUPQE6P)";
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				INFOPLIST_FILE = NeoSTORE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neosofttech.NeoSTORE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "399a7fee-4708-4a6f-a14a-1346c7cefed3";
+				SWIFT_OBJC_BRIDGING_HEADER = "NeoSTORE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../SDWebImage\"";
+			};
+			name = Debug;
+		};
+		F281146D1D45D0A500C8C80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053CBE71F5F7D797CCDD67E6 /* Pods-NeoSTORE.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: rahul mahadik (3FXBUPQE6P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: rahul mahadik (3FXBUPQE6P)";
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				INFOPLIST_FILE = NeoSTORE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neosofttech.NeoSTORE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "399a7fee-4708-4a6f-a14a-1346c7cefed3";
+				SWIFT_OBJC_BRIDGING_HEADER = "NeoSTORE-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../SDWebImage\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F28114511D45D0A500C8C80C /* Build configuration list for PBXProject "NeoSTORE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28114691D45D0A500C8C80C /* Debug */,
+				F281146A1D45D0A500C8C80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F281146B1D45D0A500C8C80C /* Build configuration list for PBXNativeTarget "NeoSTORE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F281146C1D45D0A500C8C80C /* Debug */,
+				F281146D1D45D0A500C8C80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F28114601D45D0A500C8C80C /* NeoSTORE.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F28114611D45D0A500C8C80C /* NeoSTORE.xcdatamodel */,
+			);
+			currentVersion = F28114611D45D0A500C8C80C /* NeoSTORE.xcdatamodel */;
+			path = NeoSTORE.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F281144E1D45D0A500C8C80C /* Project object */;
+}
